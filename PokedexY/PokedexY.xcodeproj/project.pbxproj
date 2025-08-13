@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7CA0E672E4B270500905225 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7CA0E662E4B270500905225 /* RxSwift */; };
 		F7CD2D742E4B16AF00EB7160 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F7CD2D732E4B16AF00EB7160 /* Alamofire */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CD2D742E4B16AF00EB7160 /* Alamofire in Frameworks */,
+				F7CA0E672E4B270500905225 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = PokedexY;
 			packageProductDependencies = (
 				F7CD2D732E4B16AF00EB7160 /* Alamofire */,
+				F7CA0E662E4B270500905225 /* RxSwift */,
 			);
 			productName = PokedexY;
 			productReference = F7CD2D612E4B168D00EB7160 /* PokedexY.app */;
@@ -353,6 +356,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F7CA0E662E4B270500905225 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7CD2D752E4B172200EB7160 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
 		F7CD2D732E4B16AF00EB7160 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F7CD2D722E4B16AF00EB7160 /* XCRemoteSwiftPackageReference "Alamofire" */;
